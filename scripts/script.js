@@ -24,6 +24,6 @@ var handleResponse = function(apiResponse) {
 }
 
 
-var promise = $.getJSON('http://congress.api.sunlightfoundation.com/legislators')
+var promise = $.getJSON('http://congress.api.sunlightfoundation.com/legislators?apikey=1435')
 
 promise.then(handleResponse)
